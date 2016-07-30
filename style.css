@@ -1,0 +1,130 @@
+html, body {
+	font-family: arial;
+	overflow: auto;	
+}
+
+.header {
+	background-image: url("header-bg.jpg");
+	background-size: 100% 220px;
+	background-repeat: no-repeat;
+}
+
+.tabber {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	font-size: 0.8em;
+}
+
+.tabber li {
+	display: inline;
+	padding: 4px;
+	border: 1px solid;
+	margin: auto;
+}
+
+.tabber li a {
+	text-decoration: none;
+	color: black;
+}
+
+form {
+	position: absolute;
+	top: 52px;
+	right: 22px;
+	border: 1px solid;
+}
+
+.header-nav {
+	position: absolute;
+	top: 100px;
+	right: 22px;
+}
+
+.header-nav li {
+	display: inline;
+}
+
+.header-nav li a {
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+}
+
+.nav ul {
+	background: black;
+	text-align: center;
+}
+.nav ul li{
+	display: inline;
+}
+
+.nav ul li a {
+	color: white;
+	text-decoration: none;
+	line-height: 45px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.notice {
+	color: red;
+	text-align: center;
+}
+
+.jumbotron img {
+	width: 100%;
+}
+
+.banner {
+	margin-top: 20px;
+	width: 100%;
+	margin-left: 10%
+}
+
+.banner img {
+	display: inline;
+	width: 20%;
+	min-width: 85px;
+}
+
+
+.titles {
+	background-image: url("titles-bg.jpg");
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	padding-top: 90px;
+}
+
+.row1, .row2 {
+	margin-left: 20%;
+	margin-right: 8%;
+	margin-bottom: 25px;
+}
+
+.titles img {
+	width: 15%;
+	min-width: 100px;
+	height: 200px;
+	padding: 10px;
+}
+
+
+.footer {
+	margin-top: 5%;
+	background-color: lightblue;
+}
+
+.footer p {
+	display: inline-block;
+}
+
+.footer .social {
+	float: right;
+
+}
+.footer img {
+	width: 50px;
+	height: auto;
+}
